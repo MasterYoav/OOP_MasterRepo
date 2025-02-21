@@ -1,0 +1,16 @@
+,Design Pattern,Java Implementation,Python Implementation,Advantages & Disadvantages,Category
+0,Factory,Uses interfaces and concrete factory classes,Uses factory functions or factory classes,Java enforces strong typing and interfaces; Python is more dynamic with easier implementation.,Creational
+1,Singleton,Uses private static instance with getInstance(),Uses __new__() or metaclass,Java requires explicit static management; Python allows metaclasses and decorators for simplicity.,Creational
+10,Builder,Uses Builder inner class for object construction,Chained methods returning self,Java uses inner builder classes; Python uses chained methods for simpler construction.,Creational
+14,Abstract Factory,Factory of factories; creates different factory classes for object creation,Factory of factories implemented using functions or metaclasses,Java uses strong typing and interfaces; Python's dynamic nature simplifies implementation.,Creational
+3,Facade,Centralized class exposing subsystem functionalities,Simple class that aggregates subsystems,Java uses structured class-based design; Python is more flexible with module-based implementation.,Structural
+4,Decorator,"Extends base class, wraps components",Uses @decorator for function/class wrapping,"Java uses inheritance; Python provides built-in decorator support, making it more concise.",Structural
+8,Adapter,Creates adapter class implementing target interface,Adapter class modifies method signatures dynamically,Java enforces strict interface contracts; Python dynamically adapts function calls.,Structural
+9,Flyweight,Shares objects instead of creating new ones,Caches objects to prevent redundancy,Java maintains strict memory management; Python optimizes object reuse automatically.,Structural
+12,Composite,Tree structure using composite and leaf components,Uses nested lists/dictionaries or OOP hierarchy,Java enforces OOP structure; Python allows more flexibility with built-in data structures.,Structural
+2,Delegation,Uses composition over inheritance,Uses composition instead of inheritance,Java requires explicit interfaces for delegation; Python supports dynamic delegation via composition.,Behavioral
+5,Iterator,Implements Iterable and Iterator interfaces,Uses __iter__ and __next__ methods,"Java requires interface implementation; Python has built-in iteration protocols (__iter__, __next__).",Behavioral
+6,Strategy,Uses interface for algorithm selection,Stores functions/objects as strategies,Java uses interfaces and polymorphism; Python allows higher flexibility using functions as strategies.,Behavioral
+7,Observer,Observable class notifies observers,Subject class updates registered observers,Java uses Observable classes; Python simplifies with built-in list of observers.,Behavioral
+13,Template,Defines abstract class with template method calling subclass implementations,Defines base class with common method structure and allows subclasses to override steps,Java requires explicit abstract methods; Python allows flexible method overriding.,Behavioral
+11,Model-View-Controller (MVC),"Separates model, view, and controller classes","Separates model, view, and controller using Flask/Django",Java follows MVC strictly; Python has built-in frameworks supporting MVC.,
